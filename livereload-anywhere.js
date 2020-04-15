@@ -103,7 +103,7 @@ document.moduleLiveReload = (function(document) {
 	// callback for when new css has been loaded
 	function cssLoadedCallback(callBackInfo) {
 		var previousUrl = callBackInfo.getAttribute('data-livereload-previousurl');
-        var callbackCountItem = callBackInfo.getAttribute('data-livereload-count');
+    var callbackCountItem = callBackInfo.getAttribute('data-livereload-count');
 
 		if (previousUrl) {
 			var styleSheetCount = document.styleSheets.length;
